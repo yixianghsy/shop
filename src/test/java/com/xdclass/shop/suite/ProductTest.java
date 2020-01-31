@@ -1,4 +1,4 @@
-package com.xdclass.shop.test;
+package com.xdclass.shop.suite;
 
 import com.xdclass.shop.model.Admin;
 import com.xdclass.shop.model.Product;

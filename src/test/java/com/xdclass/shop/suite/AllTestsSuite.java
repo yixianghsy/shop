@@ -7,7 +7,7 @@
  * 修订记录：
  * muyu@yiji.com 2020-10-30 15:59 创建
  */
-package com.xdclass.shop.test.suite;
+package com.xdclass.shop.suite;
 
 import com.xdclass.shop.test.AdminTest;
 import com.xdclass.shop.test.OrderTest;

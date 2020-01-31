@@ -1,4 +1,4 @@
-package com.xdclass.shop.test;
+package com.xdclass.shop.suite;
 
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

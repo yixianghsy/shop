@@ -1,7 +1,7 @@
 /**
  *
  */
-package com.xdclass.shop.test;
+package com.xdclass.shop.suite;
 
 import com.xdclass.shop.model.User;
 import com.xdclass.shop.repository.UserRepository;
