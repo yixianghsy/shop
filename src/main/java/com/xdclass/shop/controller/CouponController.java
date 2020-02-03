@@ -59,6 +59,9 @@ public class CouponController {
     @RequestMapping(value = "/saveUserCoupon", method = RequestMethod.POST)
     @ResponseBody
     public String saveUserCoupon(HttpServletRequest request, UserCouponDto userCoupon, HttpSession session) {
+        if (UserUtil.getUserFromSession(session).getId()==null&&UserUtil.getUserFromSession(session).getId().equals("")){
+            System.out.println("saveUserCoupon ==null");
+        }
         User user = userService.findOne(UserUtil.getUserFromSession(session).getId());
         if (user == null || user.getId() == null) {
             return "保存失败，用户不存在";
